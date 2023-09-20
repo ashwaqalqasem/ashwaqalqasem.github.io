@@ -1,0 +1,54 @@
+body{
+    background-image: url("image/Programming.png");
+    background-position: top right;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: 100px;
+    background-color: azure;
+}
+h1, h6{
+    color: #2d755e;
+}
+ul{
+    list-style: square;
+}
+ol ol {
+    list-style: lower-roman;
+}
+ol{
+    list-style: upper-roman;
+}
+a:visited{
+    text-decoration: none;
+    color:red;
+}
+a:link{
+    text-decoration: none;
+    color:blue;
+}
+a:hover{
+    text-decoration: underline;
+    color: green;
+}
+a:active{
+    text-decoration: underline;
+    color:black;
+}
+p.myclass{
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(99, 98, 19);
+
+}
+p.nclass{
+    font-size:small;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(3, 45, 29);
+
+}
+p.aclass{
+    font-size:x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(123, 174, 57);
+
+}
